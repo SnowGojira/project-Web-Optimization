@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="030ae652-503a-4da3-b734-8ede9b3fec53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/img/mobilewebdev.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/pizza.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="164">
+              <caret line="4" column="72" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="72" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -28,11 +27,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-mobile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="41">
+              <caret line="1" column="15" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/pizza.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-2048.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -80,12 +105,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/pizza.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/project-2048.html" />
         <option value="$PROJECT_DIR$/project-webperf.html" />
         <option value="$PROJECT_DIR$/project-mobile.html" />
+        <option value="$PROJECT_DIR$/views/pizza.html" />
       </list>
     </option>
   </component>
@@ -176,15 +201,16 @@
       <workItem from="1573643315726" duration="305000" />
       <workItem from="1573997805884" duration="36000" />
       <workItem from="1574936944365" duration="193000" />
-      <workItem from="1574940151717" duration="3063000" />
+      <workItem from="1574940151717" duration="3308000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3597000" />
+    <option name="totallyTimeSpent" value="3842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="23" width="1366" height="682" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17026022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -223,16 +249,6 @@
     <entry file="file://$PROJECT_DIR$/views/images/pizzeria.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/pizza.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="139" column="43" selection-start-line="139" selection-start-column="43" selection-end-line="139" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -255,23 +271,6 @@
     <entry file="file://$PROJECT_DIR$/img/2048.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-2048.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-879">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/mobilewebdev.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -282,10 +281,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project-2048.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project-mobile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="41">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="4" column="72" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="72" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pizza.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
