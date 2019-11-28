@@ -449,10 +449,12 @@ var resizePizzas = function(size) {
 
   // Iterates through pizza elements on the page and changes their widths
   function changePizzaSizes(size) {
-    for (var i = 0; i < document.querySelectorAll(".randomPizzaContainer").length; i++) {
-      var dx = determineDx(document.querySelectorAll(".randomPizzaContainer")[i], size);
-      var newwidth = (document.querySelectorAll(".randomPizzaContainer")[i].offsetWidth + dx) + 'px';
-      document.querySelectorAll(".randomPizzaContainer")[i].style.width = newwidth;
+    let pizzas = Array.from(document.querySelectorAll(".randomPizzaContainer"));
+    let widths = pizzas.map((element,index) =>
+        (element.offsetWidth + determineDx(element, size)) + 'px'
+    );
+    for (var i = 0; i < pizzas.length; i++) {
+      pizzas[i].style.width = widths[i];
     }
   }
 
@@ -501,12 +503,12 @@ function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
 
-  var items = document.querySelectorAll('.mover');
+  var items = Array.from(document.querySelectorAll('.mover'));
+  const phases = items.map((element,index)=>
+      Math.sin(((document.documentElement.scrollTop || document.body.scrollTop) / 1250) + (index % 5))
+  );
   for (var i = 0; i < items.length; i++) {
-    // document.body.scrollTop is no longer supported in Chrome.
-    var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    var phase = Math.sin((scrollTop / 1250) + (i % 5));
-    items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
+    items[i].style.left = items[i].basicLeft + 100 * phases[i] + 'px';
   }
 
   // User Timing API to the rescue again. Seriously, it's worth learning.
@@ -534,7 +536,9 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
-    document.querySelector("#movingPizzas1").appendChild(elem);
+    requestAnimationFrame(()=>{
+      document.querySelector("#movingPizzas1").appendChild(elem);
+    })
   }
   updatePositions();
 });
