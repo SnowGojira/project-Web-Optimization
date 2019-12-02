@@ -1,3 +1,35 @@
+## How to Run the Application
+When you download this file, click `index.html` to run this application. You will see Cameron's portfolio page. You will use the web develop tools to inspect it. Don't forget to check 4 links listed on this page as well: 
+1. Build your own 2048
+2. Website Performance Optimization
+3. Mobile Web Development
+4. Cam's Pizzeria
+
+## Tactics for Optimize Website Performance
+### Improve index.html
+If you want to make HTML faster, there are two major tactics:
+parse less, parse later. So what you can do are:
+
+1. Minimize images: change the size, use `jpeg`, use the compress ones which are provided by PageSpeed.
+2. Use the media query to print.css
+3. Use `async` or `defer` to javascript.
+### Improve pizza.html
+When you open the develop tool's console,
+you can see the `on load time`,`average script time`,and `resize time`. Improve these three jankies in `main.js`.
+
+1. `line 530` code generate the background pizzas when the file loaded. However the amount is far for used.
+Reduce the pizza's amount in the loop function.
+2. `line 502` code will change the horizon positions when you scroll. The style calculation in the for loop will
+cause the layout thrashing. So batch the calculation outside the loop using `array` and `array.map` method.
+3. `line 451` code can resize the pizza images listed in menu part. It has the same solution pattern as `line 502`. And you can use `fastdom` library to solve it as well.
+```Javascript
+fastdom.measure(()=>{
+    //same code as previous
+    fastdom.mutate(()=>{
+        //reflow code, like element.style.width = ...
+    })
+})
+```
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
